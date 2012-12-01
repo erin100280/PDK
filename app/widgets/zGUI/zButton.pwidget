@@ -1,0 +1,16 @@
+{
+         "name": "zGUI.zButton"
+   ,    "title": "zWindow"
+   ,  "version": "0.2"
+   , "requires": "zGUI.core"
+   ,    "class": ["zGUI", "zButton", "zPooie"]
+   ,     "elem": "button"
+   ,   "server": "./zButton/zButton.server.js"
+   ,   "client": "./zButton/zButton.client.js"
+   ,      "css": { "filename": "./zButton/zButton.client.css", "reload": 2 }
+   ,     "meta": {
+             "author": "Erin Bradford"
+      ,     "company": "Avast Digital"
+      ,     "website": "http://www.google.com"
+   }
+}

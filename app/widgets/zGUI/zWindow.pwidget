@@ -1,0 +1,14 @@
+{
+         "name": "zGUI.zWindow"
+   ,    "title": "zWindow"
+   ,  "version": "0.0.0"
+   , "requires": "zGUI.core"
+   ,   "server": "./zWindow/zWindow.server.js"
+   ,   "client": "./zWindow/zWindow.client.js"
+   ,      "css": "./zWindow/zWindow.client.css"
+   ,     "meta": {
+             "author": "Erin Bradford"
+      ,     "company": "Avast Digital"
+      ,     "website": "http://www.google.com"
+   }
+}
