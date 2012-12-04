@@ -1,12 +1,13 @@
 #HEAD {
-				display: block;
-			  position: absolute;
-					 top: 0;
-					left: 0;
-				 height: 70px;
+            display: block;
+           position: absolute;
+                top: 0;
+               left: 0;
+             height: 70px;
               width: 100%;
    background-color: #F3FFF3;
       border-bottom: solid #CCFFCC 4px;
+           overflow: hidden;
 	
 }
 
@@ -16,12 +17,35 @@
               right: 8px;
 }
 
-#navBar {
-				display: block;
-			  position: absolute;
-					 bottom: 0;
-					left: 0;
-				 height: 30px;
-				  width: 100%;
-	background-color: #EEEEEE;
+#topLogo {
+            display: block;
+           position: absolute;
+                top: 4px;
+               left: 6px;
+             height: 34px;
+              width: 168px;
+           overflow: hidden;
+         background: url(/res/topDbLogo.png) center center;
+
+
+
+/*        margin-left: auto;
+       margin-right: auto;
+         text-align: center;
+   background-color: transparent;
+	border: solid transparent 0px;
+	border-bottom-color: #FFFFFFF;
+*/
 }
+
+#navBar {
+            display: block;
+           position: absolute;
+             bottom: 0;
+               left: 0;
+             height: 30px;
+              width: 100%;
+   background-color: #EEEEEE;
+}
+
+

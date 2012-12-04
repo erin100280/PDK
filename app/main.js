@@ -4,13 +4,11 @@ var a=arguments, z, zz
 	,	cout=pops.cout
 ,	css=require('pops/pops.css')
 	,	cssFromFile=css.FromFile
-,	http=require('pops/pops.http')
-,	rtr=require('pops/pops.router')
 ,	htm=require('pops/pops.html')
 	,	guiItem=htm.GuiItem
 ,	spa=require('pops/pops.spa')
 
-,	rt, srvr, staticServer
+//,	rt, srvr, staticServer
 ;
 
 cout('pops.modDir='+pops.modDir);
@@ -37,6 +35,8 @@ var app=new spa.app({
 			,	guiItem('div', 'navBar', [
 					guiItem('breadCrumb', 'navCrumb')
 				])
+			,	guiItem('a', 'topLogo', { href: '/app' })	
+				
 			])
 		,	guiItem('div', 'BODY', [
 				guiItem('div', 'content', [
@@ -67,8 +67,12 @@ var app=new spa.app({
 	         res.end("about\n");
 	      } }
 	   ,  { mode: 'get', regex:'^/app', handler: 'APP' }
-	   ,  { regex:'^/ss', type: 'staticServer' , options: {
-				baseDir: 'c:/'
+	   ,  { uri: 'ss', type: 'staticServer' , options: {
+				baseDir: 'c:/Erin/'
+			,	rootAccess: 2
+			} }
+	   ,  { uri: 'res', type: 'staticServer' , options: {
+				baseDir: 'H:/PDK/app/resources/'
 			,	rootAccess: 2
 			} }
 	   ]
