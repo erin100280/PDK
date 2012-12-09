@@ -1,6 +1,6 @@
 {
          "name": "zGUI.zButton"
-   ,    "title": "zButton"
+   ,    "title": "zWindow"
    ,  "version": "0.2"
    , "requires": "zGUI.core"
    ,    "class": ["zGUI", "zButton", "zPooie"]

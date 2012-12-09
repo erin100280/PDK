@@ -1,0 +1,16 @@
+{
+         "name": "Rz.Content.Base"
+   ,    "title": "Rz.Content.Base"
+   ,  "version": "0.2"
+   , "requires": ["mops", "zGui.zCrumbBar"]
+   ,    "class": ["Rz", "Content", "Base"]
+   ,     "elem": "div"
+   ,   "server": "./Rz.Content.Base/Rz.Content.Base.server.js"
+   ,   "client": "./Rz.Content.Base/Rz.Content.Base.client.js"
+   ,      "css": { "filename": "./Rz.Content.Base/Rz.Content.Base.client.css", "reload": 2 }
+   ,     "meta": {
+             "author": "Erin Bradford"
+      ,     "company": "Avast Digital"
+      ,     "website": "http://www.google.com"
+   }
+}

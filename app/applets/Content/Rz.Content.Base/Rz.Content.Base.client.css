@@ -1,0 +1,27 @@
+.zGUI.zButton {
+          display: block;
+ background-color: #FAFAFA;
+          padding: 4px 14px 4px 14px;
+            width: auto;
+           height: auto;
+       text-align: center;
+        font-size: 14px;
+           border: solid #B2B2B2 1px;
+    border-radius: 6%;
+           cursor: default;
+}
+
+.zGUI.zButton.HOVER, .zGUI.zButton.ACTIVE {
+ background-color: #CCFFCC;
+}
+
+.zGUI.zButton.ACTIVE.HOVER {
+ background-color: #B2B2B2;
+ color: #F3FFF3;
+}
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+{
+         "name": "rezourceDB.PersonalHome"
+   ,    "title": "PersonalHome"
+   ,  "version": "0.2"
+   , "requires": ""
+   ,    "class": ["rezourceDB", "PersonalHome", "base"]
+   ,     "elem": "div"
+   ,   "server": "./system/PersonalHome.server.js"
+   ,   "client": "./system/PersonalHome.client.js"
+   ,      "css": { "filename": "./system/PersonalHome.client.css", "reload": 2 }
+   ,     "meta": {
+             "author": "Erin Bradford"
+      ,     "company": "Avast Digital"
+      ,     "website": "http://www.lazygirls.info.com"
+   }
+}

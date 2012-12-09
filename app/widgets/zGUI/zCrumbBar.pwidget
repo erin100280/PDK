@@ -1,0 +1,16 @@
+{
+         "name": "zGUI.zCrumbBar"
+   ,    "title": "zCrumbBar"
+   ,  "version": "0.2"
+   , "requires": "zGUI.core"
+   ,    "class": ["zGUI", "zCrumbBar", "base"]
+   ,     "elem": "div"
+   ,   "server": "./zCrumbBar/zCrumbBar.server.js"
+   ,   "client": "./zCrumbBar/zCrumbBar.client.js"
+   ,      "css": { "filename": "./zCrumbBar/zCrumbBar.client.css", "reload": 2 }
+   ,     "meta": {
+             "author": "Erin Bradford"
+      ,     "company": "Avast Digital"
+      ,     "website": "http://www.google.com"
+   }
+}
