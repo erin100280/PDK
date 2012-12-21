@@ -1,5 +1,7 @@
 //var pops=require('pops/pops.core');//.Global.Pops();
 var a=arguments, z, zz 
+,	path=require("path")
+	,	pJoin=path.join
 ,	pops=require('pops/pops.core').Global.Pops()
 	,	cout=pops.cout
 ,	css=require('pops/pops.css')
@@ -72,7 +74,7 @@ var app=new spa.app({
 			,	rootAccess: 2
 			} }
 	   ,  { uri: 'res', type: 'staticServer' , options: {
-				baseDir: 'H:/PDK/app/resources/'
+				baseDir: pJoin(pops.execDir, '/app/resources/')
 			,	rootAccess: 2
 			} }
 	   ]
